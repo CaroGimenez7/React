@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import {inputsValidate}  from `./utils/inputsvalidad`;
+import {inputsValidate}  from `./utils/inputsValidate`;
 
 function App() {
   const valoresIniciales = {
