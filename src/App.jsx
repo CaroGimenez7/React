@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-// import { validateInputs}  from "./utils/validateInputs";
+import {inputsValidate}  from `./utils/inputsvalidad`;
 
 function App() {
   const valoresIniciales = {
@@ -82,7 +82,7 @@ function App() {
         </div>
         <br />
         <button
-        //  disabled= {validateInputs(form)}
+         disabled= {inputsValidate(form)}
          type="submit">Enviar</button>
       </form>
     </>
