@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import {inputsValidate}  from `./utils/inputsValidate`;
+import {inputsValidate}  from "./utils/inputsValidate";
 
 function App() {
   const valoresIniciales = {
@@ -36,7 +36,7 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (validateInputs(form)) {
+    if (inputsValidate(form)) {
       console.error("Los campos del formulario son obligatorios")
     }else{
       console.log(form)
